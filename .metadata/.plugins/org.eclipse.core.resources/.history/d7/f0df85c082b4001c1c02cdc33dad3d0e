@@ -1,0 +1,31 @@
+
+public class Condition12 {
+// 01
+// 02 07
+// 03 08 13
+// 04 09 14 19
+// 05 10 15 20 25
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int count=1;
+		for (int i=1; i<=5; i++) {
+		for (int j=1; j<=i; j++) {
+		if (count<10) {
+			System.out.print("0");
+			System.out.print(count);
+			System.out.print("	");
+			count++;
+		}
+		else {
+			System.out.print(count);
+			System.out.print("	");
+			count++;
+
+	}
+	}
+		System.out.println("");
+}
+	}
+
+}
